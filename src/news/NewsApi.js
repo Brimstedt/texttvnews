@@ -3,7 +3,7 @@ import sanitizeHtml from 'sanitize-html';
 
 export default {
   loadNews: () => {
-    return axios.get("http://api.texttv.nu/api/get/188?app=VueNews")
+    return axios.get("https://api.texttv.nu/api/get/188?app=VueNews")
       .then((news) => {
         var items = [];
         for(var item of news.data[0].content) {

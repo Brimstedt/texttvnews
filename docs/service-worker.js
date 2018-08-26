@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.4.1/workbox-sw.js");
 
 importScripts(
-  "/texttvnews/precache-manifest.199b786e821829a66501d77bddfa29ae.js"
+  "/texttvnews/precache-manifest.4e90e7a550f1b39a5c059ca2e6818396.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "texttvnews"});
