@@ -4,7 +4,7 @@ module.exports = {
   },
 
   lintOnSave: undefined,
-  baseUrl: undefined,
+  baseUrl: '/texttvnews/',
   outputDir: undefined,
   assetsDir: undefined,
   runtimeCompiler: undefined,
