@@ -8,19 +8,19 @@ self.__precacheManifest = [
     "url": "/texttvnews/js/chunk-vendors.21a5f0f7.js"
   },
   {
-    "revision": "7db75393976445f1464e",
-    "url": "/texttvnews/js/app.1133ad1e.js"
+    "revision": "24a764524f0a1f68bbdd",
+    "url": "/texttvnews/js/app.8fe8f4f7.js"
   },
   {
     "revision": "0dc0851dc7e2cea2cbf1",
     "url": "/texttvnews/js/about.c7b66dff.js"
   },
   {
-    "revision": "0702f4061a54c474c9792ce1107aaa85",
+    "revision": "321c69affd032566e28797ad9a4cba4b",
     "url": "/texttvnews/index.html"
   },
   {
-    "revision": "7db75393976445f1464e",
+    "revision": "24a764524f0a1f68bbdd",
     "url": "/texttvnews/css/app.14a37800.css"
   }
 ];

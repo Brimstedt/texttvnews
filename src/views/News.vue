@@ -42,7 +42,7 @@ export default {
           this.ticker = 1;
           this.loadNews();
         }
-      }, 3000);
+      }, 13000);
     });
   }
 }
