@@ -56,12 +56,12 @@ export default {
 
 <style>
   h1 {
-    font-size: 4vw;
+    font-size: 5vh;
   }
   .news {
       margin: 0 auto;
       width: 80%;
-      font-size: 2vw;
+      font-size: 3vh;
       text-align: left;
   }
 
