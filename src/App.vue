@@ -18,6 +18,10 @@
 }
 #nav {
   padding: 30px;
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  text-align: right;
 }
 
 #nav a {
