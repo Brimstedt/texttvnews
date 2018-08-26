@@ -7,7 +7,7 @@
       </svg>
     </div>
     <transition name="fade" mode="out-in">
-      <div class="news" v-html="newsItem" :key="ticker">
+      <div class="news" v-html="newsItem" :key="ticker" @click="tick()">
 
       </div>
     </transition>
@@ -31,6 +31,13 @@ export default {
     ...mapActions([
       'loadNews',
     ]),
+    tick: function () {
+      this.ticker = this.ticker + 1;
+      if(this.ticker >= this.newsItems.length) {
+        this.ticker = 1;
+        this.loadNews();
+      }
+    }
   },
   computed: {
     ...mapGetters([
@@ -43,11 +50,7 @@ export default {
   mounted: function () {
     this.loadNews().then(() => {
       setInterval(() => {
-        this.ticker = this.ticker + 1;
-        if(this.ticker >= this.newsItems.length) {
-          this.ticker = 1;
-          this.loadNews();
-        }
+        this.tick();
       }, 30000);
     });
   }
@@ -56,12 +59,12 @@ export default {
 
 <style>
   h1 {
-    font-size: 5vh;
+    font-size: 5vmax;
   }
   .news {
       margin: 0 auto;
       width: 80%;
-      font-size: 3vh;
+      font-size: 3vmax;
       text-align: left;
   }
 
